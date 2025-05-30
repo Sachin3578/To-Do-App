@@ -1,0 +1,38 @@
+.todo{
+    min-height: 100vh;
+    max-height: auto;
+    width: 100%;
+}
+.todo-inputs input{
+    border: none;
+    outline: none;
+}
+.todo-inputs-div{
+    border: 1px solid black;
+}
+#textarea{
+    display: none;
+}
+
+.todo-card{
+    border: 1px solid black;
+}
+.todo-card-p{
+    text-align: justify;
+    text-justify: inter-word;
+}
+.card-icon{
+    font-size: 20px;
+    cursor: pointer;
+}
+.del{
+    color: red;
+}
+.card-icon-head{
+    cursor: pointer;
+    transition: all 0.3s;
+}
+.card-icon-head:hover{
+    box-shadow: rgba(0,0,0,0.35) 0px 5px 15px;
+    transition: all 0.3s;
+}

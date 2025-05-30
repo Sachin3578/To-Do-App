@@ -1,0 +1,65 @@
+.signup {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #e0f7fa, #ffffff);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.signup .container {
+  max-width: 900px;
+}
+
+.signup .row {
+  background-color: #fff;
+  border-radius: 1.5rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+}
+
+.signup .col-lg-6.bg-primary {
+  background: linear-gradient(135deg, #007bff, #0056b3);
+  color: white;
+}
+
+.signup h1 {
+  font-size: 3rem;
+  font-weight: bold;
+}
+
+.signup p {
+  font-size: 1.1rem;
+}
+
+.signup form {
+  padding: 20px 0;
+}
+
+.signup .form-label {
+  font-weight: 500;
+}
+
+.signup .form-control {
+  border-radius: 0.5rem;
+  padding: 10px 15px;
+  font-size: 1rem;
+  border: 1px solid #ced4da;
+}
+
+.signup .form-control:focus {
+  border-color: #007bff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
+
+.signup .btn {
+  padding: 10px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  border-radius: 0.5rem;
+  transition: background-color 0.3s ease;
+}
+
+.signup .btn:hover {
+  background-color: #0056b3;
+}
